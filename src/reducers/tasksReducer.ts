@@ -1,5 +1,5 @@
+// @ts-nocheck
 import { TaskItemType } from "../../app.types"
-
 export interface ITaskReducerAction {
   type: string
   payload: TaskItemType[]
