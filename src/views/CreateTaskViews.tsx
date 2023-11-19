@@ -13,8 +13,8 @@ const CreateTaskViews: React.FC<ICreateTaskViews> = () => {
   // function to handle create task form submit
   const handleSubmitInput = (inputData: FormInputType): void => {
     createNewTask(inputData)
-      .then((data) => console.log(data))
-      .catch((error) => console.log(error))
+      // .then((data) => console.log(data))
+      // .catch((error) => console.log(error))
   }
 
   return (

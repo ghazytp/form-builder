@@ -21,8 +21,8 @@ const FormConfigProvider: React.FC<IConfigProvider> = ({ children }) => {
 
   const saveConfig = () => {
     saveFormConfig(formConfig)
-      .then((data) => console.log(data))
-      .catch((error) => console.log(error))
+      // .then((data) => console.log(data))
+      // .catch((error) => console.log(error))
   }
 
   // fetch form config
